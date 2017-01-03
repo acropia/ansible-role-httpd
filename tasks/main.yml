@@ -1,0 +1,11 @@
+---
+- name: Install Apache HTTP Server (httpd)
+  yum:
+    name: httpd
+    state: latest
+
+- name: Enable and start Apache httpd
+  systemd:
+    name: httpd
+    enabled: yes
+    state: started
