@@ -1,6 +1,6 @@
 galaxy_info:
   author: Jan Bouma
-  description: IT Professional
+  description: Install Apache web server (httpd) on CentOS Linux 7
   company: Acropia.nl
   license: BSD
   min_ansible_version: 1.2
