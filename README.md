@@ -1,6 +1,11 @@
 acropia-role-httpd
 ==================
-Installs and configure Apache HTTP Server on a Linux system.
+Installs and configure Apache HTTP Server on a Linux system. It installs a
+rather basic setup for Apache HTTPD, and does some additional steps:
+
+- Disable a lot of base modules, to speed up Apache
+- Disable DAV, LUA, CGI
+- Configure mod_info and mod_status to only allow given IPs
 
 Requirements
 ------------
